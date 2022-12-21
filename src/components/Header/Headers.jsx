@@ -11,6 +11,8 @@ const Headers = () => {
           <Navbar.Brand href="#home">Technical Abhi</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/register">Register</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>
