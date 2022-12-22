@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
-// import Tables from '../../components/Tables/Tables';
-// import Spiner from "../../components/Spiner/Spiner"
+import Tables from '../../components/Table/Tables';
+import Spiner from "../../components/Spiner/Spiner"
 import { useNavigate } from "react-router-dom"
 import "./home.css"
 
@@ -122,7 +122,7 @@ const Home = () => {
           </div>
         </div>
         {
-          // showspin ? <Spiner /> : <Tables />
+          showspin ? <Spiner /> : <Tables />
         }
 
       </div>
